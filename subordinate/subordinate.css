@@ -1,0 +1,467 @@
+/* IDs - cabeçalho */
+
+#cabeçalho_medidas{
+
+	width: 750px;
+	height: 50px;
+	margin: auto;
+
+}
+
+#menu{
+
+	width: 860px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#menu span{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#menu ul{
+
+	float: right;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+
+}
+
+#menu li{
+
+	display: inline;
+
+}
+
+#menu .numero_cabeçalho{
+
+	font-size: 30px;
+	color: #A5EB50;
+
+}
+
+#menu a{
+
+	margin-right: 4px;
+	padding: 10px 15px 10px 10px;
+	letter-spacing: -.5px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font: 16px "Trebuchet MS", Arial;
+	color: white;
+
+}
+
+#menu a:hover{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+/* Métodos */
+
+body{
+
+	margin: 0px;
+	padding: 0px;
+	background: url(images/img01.gif) repeat-x left top;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #323131;
+
+}
+
+h1, h2, h3{
+
+	margin: 0px;
+	text-transform: lowercase;
+	color: #857B7B;
+
+}
+
+h1{
+
+	font-size: 30px;
+
+}
+
+p, ul, ol{
+
+	margin: 0px 0px 2em 0px;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 11px;
+
+}
+
+a:link{
+
+	color: #6EBF0B;
+	
+
+}
+
+a:hover, a:active{
+
+	text-decoration: none;
+	color: #6EBF0B;
+
+}
+
+a:visited{
+	color: #6EBF0B;
+
+}
+
+img{
+
+	border: 1px dashed #86E714;
+	padding: 2px;
+
+}
+
+img.esquerda{
+
+	float: left;
+	margin-right: 15px;
+
+}
+
+img.right{
+
+	float: right;
+	margin-left: 15px;
+
+}
+
+form{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+fieldset{
+
+	margin: 0px;
+	padding: 0px;
+	border: none;
+
+}
+
+legend{
+
+	display: none;
+
+}
+
+input, textarea, select{
+
+	font-family: Arial;
+	font-size: 13px;
+	color: #323131;
+
+}
+
+/** IDs - Corpo */
+
+#subordinate_imagem{
+
+	clear: both;
+	width: 860px;
+	height: 80px;
+	margin: 0px auto;
+	background: url(images/img02.gif) no-repeat left top;
+
+}
+
+#container{
+
+	width: 880px;
+	margin: 0px auto;
+
+}
+
+#corpo_medida{
+
+	float: right;
+	width: 600px;
+
+}
+
+#subordinate_imagem h1, #subordinate_imagem h2{
+
+	margin: 0px;
+	padding: 0px 0px 0px 75px;
+	line-height: normal;
+
+}
+
+#subordinate_imagem h1 a{
+	text-decoration: none;
+	color: white;
+
+}
+
+#subordinate_imagem h1 a:hover{
+
+	text-decoration: underline;
+
+}
+
+#subordinate_imagem h2{
+
+	float: left;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	color: #65B306;
+
+}
+
+#subordinate_imagem p a{
+
+	text-decoration: none;
+
+}
+
+#folha{
+
+	width: 150px;
+	height: 150px;
+
+}
+
+#subordinate_imagem p a:hover{
+
+	text-decoration: underline;
+
+}
+
+/* Classes - corpo */
+
+.padrão{
+
+	padding: 14px 14px;
+
+}
+
+.padrão .titulo{
+
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #D1D1D1;
+	background: url(images/img04.jpg) repeat-x left bottom;
+
+}
+
+.padrão .meta{
+
+	height: 70px;
+	padding: 40px 15px 0px 15px;
+	background: url(images/img03.jpg) repeat-x left top;
+
+}
+
+.padrão .meta p{
+
+	margin: 0px;
+	line-height: normal;
+	color: #999999;
+
+}
+
+.padrão .meta .byline{
+
+	float: left;
+
+}
+
+.padrão .meta .links{
+
+	float: right;
+
+}
+
+.padrão .meta .more{
+
+	padding: 0px 20px 0px 18px;
+	background: url(images/img09.gif) no-repeat left 50%;
+
+}
+
+.padrão .meta .comments{
+
+	padding-left: 22px;
+	background: url(images/img08.gif) no-repeat left 50%;
+
+}
+
+.padrão .meta b{
+
+	display: none;
+
+}
+
+/* IDs - Barra Lateral */
+
+#esquerda{
+
+	float: left;
+	width: 215px;
+
+}
+
+#esquerda ul{
+
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+
+#esquerda li{
+
+	margin-bottom: 40px;
+
+}
+
+#esquerda li ul{
+
+	background: url(images/img03.jpg) repeat-x left bottom;
+	padding-bottom: 20px;
+
+}
+
+#esquerda li li{
+
+	margin: 0px;
+	padding-left: 12px;
+
+}
+
+#esquerda h2{
+
+	padding-top: 20px;
+	margin-bottom: 10px;
+	background: url(images/img04.jpg) repeat-x left bottom;
+	border-bottom: 1px dotted #D1D1D1;
+	font-size: 18px;
+
+}
+
+/* IDs - Procura */
+
+#janela_busca{
+
+	background: url(images/img03.jpg) repeat-x left bottom;
+	margin-bottom: 20px;
+
+}
+
+#janela_busca h2{
+
+	margin-bottom: 20px;
+
+}
+
+#caixa_procura{
+
+	width: 115px;
+	margin-right: 5px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	padding: 3px 0px 3px 15px;
+	border: 1px solid #F0F0F0;
+
+}
+
+#botao_procura{
+
+	margin-bottom: 20px;
+	padding: 3px 3px 3px 3px;
+	background: lightgrey;
+	border: none;
+	text-transform: lowercase;
+	font-size: 11px;
+	color: #4E4E4D;
+
+}
+
+/* Classes - Caixas */
+
+.box1{
+
+	padding: 20px;
+	background: url(images/img05.gif) no-repeat;
+
+}
+
+.box2{
+
+	color: #BBBBB8;
+
+}
+
+.box2 h2{
+
+	margin-bottom: 15px;
+	background: url(images/img10.gif) repeat-x left bottom;
+	font-size: 16px;
+	color: white;
+
+}
+
+.box2 ul{
+
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+
+.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited {
+
+	color: #E4DEDE;
+
+}
+
+/* IDs -Rodapé */
+
+#rodapé_medidas{
+
+	width: 860px;
+	height: 55px;
+	margin: auto;
+
+}
+
+#rodapé{
+
+	margin: 0px auto;
+	min-height: 55px;
+	padding: auto;
+	background: #A0A0A3 url(images/img05.gif) repeat-x left bottom;
+
+}
+
+#legal{
+
+	clear: both;
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+
+}
+
+#legal a{
+
+	font-weight: bold;
+	color: white;
+
+}
